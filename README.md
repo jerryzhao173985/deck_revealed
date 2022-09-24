@@ -15,3 +15,6 @@ ffmpeg -i /Users/jerry/Downloads/deck-startup-best.mp4 \                        
 And resize to avoid too long in size:
 
 ```  truncate -s 1840847 deck_startup.webm  ```
+
+
+Reference also: https://github.com/kageurufu/steamdeck_startup_animations

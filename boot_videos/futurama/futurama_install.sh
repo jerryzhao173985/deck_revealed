@@ -5,6 +5,6 @@ mkdir -p futurama_boot_video
 cd "$HOME/Downloads/futurama_boot_video"
 wget https://raw.githubusercontent.com/jerryzhao173985/deck_revealed/main/boot_videos/futurama/deck_startup.webm
 wget https://raw.githubusercontent.com/jerryzhao173985/deck_revealed/main/boot_videos/library.css
-curl -o - https://raw.githubusercontent.com/jerryzhao173985/deck_revealed/main/boot_videos/install_boot_screen.sh | bash -
-curl -o - https://raw.githubusercontent.com/jerryzhao173985/deck_revealed/main/boot_videos/fix_full_screen.sh | bash - cd "$HOME/Downloads"
+curl -o - https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/install_boot_screen.sh | bash -
+curl -o - https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/fix_full_screen.sh | bash -
 rm -r futurama_boot_video
